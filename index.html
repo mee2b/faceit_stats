@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .stats-container {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+        }
+        .stat-item {
+            margin: 5px 0;
+        }
+        .elo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4655; /* Faceit orange */
+        }
+    </style>
+</head>
+<body>
+    <div class="stats-container">
+        <div class="stat-item elo" id="elo">ELO: --</div>
+        <div class="stat-item" id="kd">KD: --</div>
+        <div class="stat-item" id="kr">KR: --</div>
+        <div class="stat-item" id="matches">Matches: --</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
