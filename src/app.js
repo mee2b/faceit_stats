@@ -55,9 +55,9 @@ async function updateOverlay() {
     
     if (stats) {
         document.getElementById('elo').textContent = `ELO: ${stats.elo}`;
-        document.getElementById('level').textContent = `Level: ${stats.level}`;
+        document.getElementById('level').src = `src/img/${stats.level}.png`;
         document.getElementById('kd').textContent = `KD: ${stats.kd}`;
-        document.getElementById('win-rate').textContent = `Win rate: ${stats.winRate}%`;
+        document.getElementById('win-rate').textContent = `WR: ${stats.winRate}%`;
         document.getElementById('matches').textContent = `Matches: ${stats.matches}`;
     } else {
         document.getElementById('kd').textContent = 'KD: --';
