@@ -1,6 +1,7 @@
 const url = window.location.href
 const urlValue = new URLSearchParams(window.location.search).get('nickname')
 if (urlValue) window.location.replace('stats.html' + '?nickname=' + urlValue)
+console.log(urlValue)
 
 const statsButton = document.getElementById('stats-btn')
 const nicknameField = document.getElementById('nickname-input')
