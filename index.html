@@ -4,18 +4,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="stats-container">
-        <div class="elo-container">
-            <img src="src/img/challenger.png" alt="Level" id="level">
-            <div class="stat-item elo" id="elo">ELO: --</div>
-        </div>
-        <div class="second-info-container">
-            <div class="stat-item" id="kd">KD: --</div>
-            <div class="stat-item" id="win-rate">WR: --</div>
-            <div class="stat-item" id="matches">Matches: --</div>
-        </div>
+    <div>
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" placeholder="User1234" id="nickname-input">
+        <button id="stats-btn">Copy stats link</button>
     </div>
-    
-    <script src="src/app.js"></script>
+
+    <script src="src/input.js"></script>
 </body>
 </html>

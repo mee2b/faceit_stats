@@ -1,3 +1,8 @@
+img {
+    width: 40px;
+    height: 40px;
+}
+
 .elo-container {
     display: flex;
     gap: 10px;
@@ -5,6 +10,12 @@
     padding: 10px;
     border-radius: 20px;
 }
+
+.recent-results-container {
+    display: flex;
+    gap: 10px;
+}
+
 .second-info-container {
     display: flex;
     gap: 10px;
@@ -22,9 +33,26 @@
 }
 .stat-item {
     margin: 5px 0;
+    color: #eeeeee;
 }
 .elo {
     font-size: 24px;
-    font-weight: lighter;
     color: #ffffff;
+}
+
+.last-matches {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.W {
+    color: rgb(124, 206, 41);
+    -webkit-text-stroke-color: rgb(3, 65, 0);
+    -webkit-text-stroke-width: 1px;
+}
+
+.L {
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-color: rgb(78, 0, 0);
+    -webkit-text-stroke-width: 1px;
 }
