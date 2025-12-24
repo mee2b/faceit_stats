@@ -2,7 +2,7 @@ const API_KEY = '077b5d90-e70e-4a3a-b3d2-550935498608';
 //f1c77f98-7462-477c-8c8a-ab06c8487af3
 
 const matchesContainer = document.getElementById('recent-results-container');
-const matchResultLetters = ['W', 'L']
+const matchResultLetters = ['L', 'W']
 
 const nickname = new URLSearchParams(window.location.search).get('nickname')
 
